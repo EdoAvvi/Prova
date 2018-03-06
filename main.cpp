@@ -5,7 +5,7 @@
 int main() {
     sf::RenderWindow window(sf::VideoMode(640,600),"");
     sf::CircleShape shape;
-    shape.setRadius(60.f);
+    shape.setRadius(500.f);  //bug fix
     shape.setPosition(40.f, 100.f);
 
     shape.setFillColor(sf::Color::Cyan);
